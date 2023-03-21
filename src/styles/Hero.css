@@ -1,0 +1,18 @@
+.hero-img {
+    border-radius: 33% 54% 33% 81%;
+    animation: blob 5s 0s infinite alternate ease-in-out;
+}
+
+@keyframes blob {
+    0% {
+        border-radius: 33% 54% 33% 41% / 61% 33% 61% 54%;
+
+    } 
+    50% {
+        border-radius: 61% 33% 61% 54% / 33% 54% 33% 41%;
+    }
+    100% {
+        border-radius: 81% 53% 81% 74% / 39% 44% 43% 51%;
+
+    }
+}
